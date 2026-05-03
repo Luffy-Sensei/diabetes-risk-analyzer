@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "599403468876",
+    "project_id": "funk-89e40",
+    "storage_bucket": "funk-89e40.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599403468876:android:4d185f650ee20bae087ce9",
+        "android_client_info": {
+          "package_name": "com.example.diabetesriskanalysis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz95ahRPQkUxXiBWhklK-GN8_H517bUCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

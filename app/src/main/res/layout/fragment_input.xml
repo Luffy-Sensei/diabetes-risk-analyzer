@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://android.com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Risk Assessment"
+                android:textColor="#004D40"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="Answer all questions for an AI-based result."
+                android:textColor="#757575"
+                android:textSize="14sp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <!-- Q1 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Daily water intake level?"
+                        android:textColor="#212121"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+                    <RadioGroup
+                        android:id="@+id/q1Group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp">
+                        <RadioButton android:id="@+id/q1_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Normal" />
+                        <RadioButton android:id="@+id/q1_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Slightly Abnormal" />
+                        <RadioButton android:id="@+id/q1_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Abnormal" />
+                        <RadioButton android:id="@+id/q1_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Highly Abnormal" />
+                    </RadioGroup>
+
+                    <!-- Q2 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Urination frequency?"
+                        android:textColor="#212121"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+                    <RadioGroup
+                        android:id="@+id/q2Group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp">
+                        <RadioButton android:id="@+id/q2_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Normal" />
+                        <RadioButton android:id="@+id/q2_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Slightly Abnormal" />
+                        <RadioButton android:id="@+id/q2_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Abnormal" />
+                        <RadioButton android:id="@+id/q2_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Highly Abnormal" />
+                    </RadioGroup>
+
+                    <!-- Q3 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Weight loss (last 6 months)?"
+                        android:textColor="#212121"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+                    <RadioGroup
+                        android:id="@+id/q3Group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp">
+                        <RadioButton android:id="@+id/q3_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Normal" />
+                        <RadioButton android:id="@+id/q3_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Slightly Abnormal" />
+                        <RadioButton android:id="@+id/q3_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Abnormal" />
+                        <RadioButton android:id="@+id/q3_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Highly Abnormal" />
+                    </RadioGroup>
+
+                    <!-- Q4 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Wound healing time?"
+                        android:textColor="#212121"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+                    <RadioGroup
+                        android:id="@+id/q4Group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp">
+                        <RadioButton android:id="@+id/q4_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Normal" />
+                        <RadioButton android:id="@+id/q4_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Slightly Abnormal" />
+                        <RadioButton android:id="@+id/q4_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Abnormal" />
+                        <RadioButton android:id="@+id/q4_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Highly Abnormal" />
+                    </RadioGroup>
+
+                    <!-- Q5 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Hunger level?"
+                        android:textColor="#212121"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+                    <RadioGroup
+                        android:id="@+id/q5Group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton android:id="@+id/q5_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Normal" />
+                        <RadioButton android:id="@+id/q5_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Slightly Abnormal" />
+                        <RadioButton android:id="@+id/q5_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Abnormal" />
+                        <RadioButton android:id="@+id/q5_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Highly Abnormal" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/analyzeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="40dp"
+                android:text="RUN AI ANALYSIS"
+                android:backgroundTint="#00796B"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:cornerRadius="12dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

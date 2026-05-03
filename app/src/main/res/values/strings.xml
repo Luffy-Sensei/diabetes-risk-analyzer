@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Diabetes Risk AI</string>
+
+    <string name="about">About</string>
+    <string name="reset">Reset</string>
+
+    <string name="about_message">
+        Diabetes Risk AI v1.0\nThis is not a medical diagnosis tool.
+    </string>
+</resources>

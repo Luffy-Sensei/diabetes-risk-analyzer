@@ -1,0 +1,8 @@
+<resources>
+    <color name="primary">#00796B</color> <!-- Teal Medical -->
+    <color name="primary_dark">#004D40</color>
+    <color name="accent">#FF5252</color> <!-- Alert Red -->
+    <color name="background">#F5F7FA</color>
+    <color name="card">#FFFFFF</color>
+    <color name="text_main">#212121</color>
+</resources>
